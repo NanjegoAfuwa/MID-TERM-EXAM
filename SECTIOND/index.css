@@ -1,0 +1,25 @@
+body { font-family: Arial, sans-serif;
+    text-align: center; 
+    background-color: rgb(85, 172, 172);
+    padding: 58px;
+    cursor: pointer;
+   }
+
+
+#taskList { list-style-type: none;  
+}
+
+
+li { background: #745252; 
+   padding: 8px; 
+   margin: 5px; 
+   display: flex; 
+   justify-content: space-between; }
+
+div{ width: 300px; 
+   padding: 20px;
+   border: 2px solid #4CAF50; 
+   border-radius: 10px; 
+   background-color: #f8f4f4; 
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}        
